@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Integrador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid ">
+              <a class="navbar-brand text-white" href="#">
+               <img id="imgCodo" src="./imagenes/codoacodo.png" alt="codo a codo"
+               width="150"
+               height="80"> Conf Bs As
+              </a>
+               <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav" >
+              <a class="nav-link active text-white" aria-current="page" href="#LaConferencia">La conferencia</a>
+              <a class="nav-link text-white-50" href="#LosOradores">Los oradores</a>
+              <a class="nav-link text-white-50" href="#ElLugarYLaFecha">El lugar y la fecha</a>
+              <a class="nav-link text-white-50"  href="#ConviérteteEnOrador">Conviértete en orador</a>
+              <a class="verde nav-link text-success" href="./compra.html">Compar tickets</a>
+            </div>
+          </div>
+        </div>
+     </nav>
+     <div class="card text-bg-dark p-3 rounded-0" >
+        <img src="./imagenes/ba1.jpg" class="card-img" alt="Imagen de portada">
+         <div class="cardPortada card-img-overlay" id="LaConferencia">
+            <div class="texto">
+          <h3 class="titulo card-title" >Conf Bs As</h5>
+          <p class="card-text"> Quidem sint incidunt a, ab magnam, error obcaecati fugit dolorem molestias eveniet nulla. Facere a molestias, earum tempora distinctio nobis voluptatibus amet!  This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text">
+             <small>
+             <button type="button" class="btn bg-cuerpo btn-sm  border text-white"><a class="nav-link active text-white"  href="#ConviérteteEnOrador">Quiero ser orador </a></button>
+             <button type="button" class="btn btn-success btn-sm"><a class="nav-link active text-white" href="./compra.html">Compar tickets</a></button>
+            </small>
+          </p>
+         </div>
+        </div>
+        
+      </div>
+    </header>
+    <main class="container mt-4 mb4" id="LosOradores">
+        <div class="oradores p-1">
+            <p> CONOCE A LOS</p>
+            <h1>ORADORES</h1> 
+         </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">         
+             <div class="col">
+              <div class="card h-100">
+                <img src="./imagenes/steve.jpg" class="card-img-top" alt="Steve">
+                <div class="card-body">
+                <p> <span class="badge rounded-pill text-bg-warning">JavaScript</span>
+                    <span class="badge rounded-pill text-white text-bg-info">React</span>
+                </p>
+                  <h5 class="card-title">Steve Jobs</h5>
+                  <p class="card-text text-dark p-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>                
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./imagenes/bill.jpg" class="card-img-top" alt="Bill">
+                <div class="card-body">
+                    <p> <span class="badge rounded-pill text-bg-warning">JavaScript</span>
+                        <span class="badge rounded-pill text-white text-bg-info">React</span>
+                    </p>
+                  <h5 class="card-title">Bill Gates</h5>
+                  <p class="card-text text-dark p-1">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>                
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./imagenes/ada.jpeg" class="card-img-top" alt="Ada">
+                <div class="card-body">
+                    <p> <span class="badge rounded-pill text-bg-secondary">Negocios</span>
+                        <span class="badge rounded-pill text-bg-danger">Startups</span>
+                    </p>
+                  <h5 class="card-title">Ada Lovelace</h5>
+                  <p class="card-text text-dark p-1">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+      </main>
+    <section id="ElLugarYLaFecha">
+      <div class="row x-0">
+        <div class="col-sm-6 p-0 " id="imagenPlaya">        
+          <div class="card">
+            <img src="./imagenes/honolulu.jpg" alt="imagenPlaya">      
+           </div>
+          </div>        
+        <div class="col-sm-6 p-0 bg-dark">
+          <div class="card bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title">Bs As- Octubre </h5>
+              <p class="card-text">Buenos Aires is Argentina’s big, cosmopolitan capital city. Its center is the Plaza de Mayo, lined with stately 19th-century buildings including Casa Rosada, the iconic, balconied presidential palace. Other major attractions include Teatro Colón, a grand 1908 opera house with nearly 2,500 seats, and the modern MALBA museum, displaying Latin American art. With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark border-white">Conocé más</a>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>   
+    <section class="venta col-md-6 col-sm-12 mx-auto my-auto" id="ConviérteteEnOrador">
+      <div class=" oradores ">
+       <p class=" mb-0">CONVIERTETÉ EN UN </p> 
+      <h1> ORADOR </h1>
+      <p class="small">Anotaté como orador para dar una charla ignite. Cuéntanos de que quieres hablar!</p>
+    </div>
+      <div class="row mb-3" >
+        <div class="col-md-6 col-sm-12 mx-auto mb-3">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col-md-6 col-sm-12 mx-auto ">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+        </div>
+      </div>
+      <div class="form-floating mb-3">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
+        <p class="text-muted small">Recuerda incluir un título para tu charla.</p>
+      </div>
+      <div class="d-grid gap-2 mb-3">
+        <button class="btn btn-success" type="button">Enviar</button>        
+      </div>
+    </section>
+   
+    <footer>
+      <nav class="navbar navbar-expand-lg bg-dark bg-gradient mx-auto px-0">
+        <div class="container-fluid">      
+      
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Preguntas frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Contáctanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Prensa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Conferencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Términos y condiciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Privacidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Estudiantes</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</html>

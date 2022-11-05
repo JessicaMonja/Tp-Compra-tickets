@@ -1,0 +1,111 @@
+.navbar-nav {
+padding-left: 30%; 
+}
+.verde{
+    color: rgb(111, 226, 111) !important;
+
+    }
+
+.texto{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%; 
+    margin: 1%; 
+    
+    
+}
+.card-img{
+ filter: brightness(50%);   
+}
+.card-text{
+    
+    color: white;
+}
+.oradores{
+    text-align: center;
+    margin: 2%;      
+}
+
+#imagenPlaya{
+    
+    height: auto;
+
+}        
+
+footer{
+    
+    padding: 0;
+    justify-content: center;
+}
+
+.d-grid button {
+    background-color: yellowgreen;
+}
+
+.tituloVenta {
+    text-align: center;
+}
+
+.categorias{
+    display: flexbox;
+    justify-content: center;
+    align-items: center; 
+    margin: 2% 10%; 
+    
+}
+
+.venta{
+    display: flexbox;
+  align-items: center;
+  justify-content: center !important;
+   text-align: center; 
+   margin-right: 10%   ;
+   margin-left: 10%;
+   
+}
+.totalPagar input{    
+    background-color: rgb(73, 193, 233);
+
+}
+@media screen and (max-width: 992px) { 
+    .venta #Conviértete en orador {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin: auto;}
+
+    .categorias{ margin: auto;
+     
+    }  
+}
+
+@media screen and (max-width: 570px) { 
+    .cardPortada{
+        font-size: 10px;
+    }
+    .titulo{
+        font-size: 14px;
+
+        }
+     .navbar-brand{
+        font-size: 14px;
+     }   
+     #imgCodo{
+        width: 80px;
+        height: 50px;
+    } 
+    
+    }
+
+    @media screen and (max-width: 768px){
+        .oradores{
+            margin: 1%;
+        }
+    }
+    
+    
